@@ -1,19 +1,33 @@
 /* Your Website Styles */
 
+.gallery{
+  background: url("../img/triangular.png");
+}
+
 /*header*/
+
+.header{
+  background: url("../img/tweed.png");
+  margin-top: .5em;
+  border-radius: 0 1.5em;
+}
 
 .header div{
   text-align:center;
 }
 
+.header div img{
+  margin: 1em 1em 0 1em;
+}
+
 .header nav{
   float: right;
-  margin-top: 5em;
+  margin-top: 11.25em;
 }
 
 .header ul{
   display: block;
-  list-style: none;
+  list-style: none; 
 }
 
 .header li{
@@ -23,7 +37,7 @@
 
 .header a{
   text-decoration: none;
-  color: #000;
+  color: #FFF;
   padding: 1em;
   transition: border .25s;
 }
@@ -76,9 +90,11 @@ a[alt="image"]:hover{
 }
 .gallery .item {
   height: 400px;
+  padding: 20px 0 20px 0;
   overflow: hidden;
   text-align: center;
-  background: #4d87e2;
+  background: url("../img/tweed.png");
+  border-radius: 1.5em;
 }
 .gallery .controls {
   position: absolute;
@@ -102,6 +118,3 @@ a[alt="image"]:hover{
 
 
 /* Show Grid */
-.showgrid {
-  background: url("../img/grid-bg.png") repeat-y;
-}
