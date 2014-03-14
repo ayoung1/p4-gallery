@@ -2,21 +2,85 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Website Starter</title>
+  <title>Your Website</title>
+	
+ <link rel="icon" href="favicon.ico">
  
-  <link rel="stylesheet" type="text/css" href="css/normalize.css">
 
-  <link rel="stylesheet" type="text/css" href="css/grid.css">
-  
-  <link rel="stylesheet" type="text/css" href="css/styles.css">
- 
+ 	<link rel="stylesheet" href="css/normalize.css">				
+	<link rel="stylesheet" href="css/gallery.css">
+	<link rel="stylesheet" href="css/grid.css">
+ 	<link rel="stylesheet" href="css/styles.css">	
+	
 </head>
 <body>
+	
+	<div class="container showgrid">
 
-<div class="container">
+		<div class="grid_12 header">
+			<div class="grid_4 alpha">
+				<img src="http://placekitten.com/300/200" alt="logo">
+			</div>
+			<div class="grid_3"></div>
+			<nav class="grid_5 omega">
+				<ul>
+				    <li>
+				    	<a href="" alt="image">GALLERY</a>
+				    </li>
+				    <li>
+				    	<a href="" alt="resume">RESUME</a>
+				    </li>
+				    <li>
+				    	<a href="" alt="home">HOME</a>
+				    </li>
+				</ul>
+			</nav>
+		</div>
 
 
-  </div>
+		<div class="grid_12 gallery items-4">
+	  		<div id="item-1" class="control-operator"></div>
+	  		<div id="item-2" class="control-operator"></div>
+	  		<div id="item-3" class="control-operator"></div>
+	  		<div id="item-4" class="control-operator"></div>
 
+	  		<figure class="item">
+	  			<img src="img/1.jpg" alt="">
+			</figure>
+
+			<figure class="item">
+				<img src="img/2.jpg" alt="">
+			</figure>
+
+			<figure class="item">
+				<img src="img/3.jpg" alt="">
+			</figure>
+
+			<figure class="item">
+				<img src="img/4.jpg" alt="">
+			</figure>
+
+			<div class="controls">
+				<a href="#item-1" class="control-button">
+					<img src="img/1-thumb.jpg" alt="">
+				</a>
+				<a href="#item-2" class="control-button">
+					<img src="img/2-thumb.jpg" alt="">
+				</a>
+				<a href="#item-3" class="control-button">
+					<img src="img/3-thumb.jpg" alt="">
+				</a>
+				<a href="#item-4" class="control-button">
+					<img src="img/4-thumb.jpg" alt="">
+				</a>
+			</div>
+		</div>		
+
+		<!-- Clearfix -->
+		<div class="clear"></div>
+
+	</div>
+	
+  
 </body>
 </html>

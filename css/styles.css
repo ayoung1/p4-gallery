@@ -1,3 +1,107 @@
+/* Your Website Styles */
+
+/*header*/
+
+.header div{
+  text-align:center;
+}
+
+.header nav{
+  float: right;
+  margin-top: 5em;
+}
+
+.header ul{
+  display: block;
+  list-style: none;
+}
+
+.header li{
+  float: right;
+  display:list-item;
+}
+
+.header a{
+  text-decoration: none;
+  color: #000;
+  padding: 1em;
+  transition: border .25s;
+}
+
+a[alt="home"]{
+  border-bottom: solid red 3px;
+}
+
+a[alt="home"]:hover{
+  color: red;
+  border-bottom: solid red 7px;
+}
+
+a[alt="resume"]{
+  border-bottom: solid green 3px;
+}
+
+a[alt="resume"]:hover{
+  color: green;
+  border-bottom: solid green 7px;
+}
+
+a[alt="image"]{
+  border-bottom: solid blue 3px;
+}
+
+a[alt="image"]:hover{
+  color: blue;
+  border-bottom: solid blue 7px;
+}
+/*end header*/
 
 
-/* Diagnostic Styling */
+/* Gallery Stying */
+.gallery .control-button {
+  color: #ccc;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.gallery .control-button:hover {
+  color: white;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/*
+  Theme controls how everything looks in Gallery CSS.
+*/
+.gallery {
+  position: relative;
+}
+.gallery .item {
+  height: 400px;
+  overflow: hidden;
+  text-align: center;
+  background: #4d87e2;
+}
+.gallery .controls {
+  position: absolute;
+  bottom: -120px;
+  width: 100%;
+  text-align: center;
+}
+
+.gallery .controls img {
+  border: 5px solid #000;
+}
+
+.gallery .control-button {
+  display: inline-block;
+  margin: 0 .02em;
+  font-size: 3em;
+  text-align: center;
+  text-decoration: none;
+  transition: color .1s;
+}
+
+
+/* Show Grid */
+.showgrid {
+  background: url("../img/grid-bg.png") repeat-y;
+}
