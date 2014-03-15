@@ -1,7 +1,8 @@
 /* Your Website Styles */
 
-.gallery{
-  background: url("../img/triangular.png");
+body{
+  background: url("../img/sandpaper.png");
+  background-size: 10.875em 15.625em;
 }
 
 /*header*/
@@ -72,6 +73,10 @@ a[alt="image"]:hover{
 
 
 /* Gallery Stying */
+img[alt="thumb"]{
+  margin-left:.5em;
+}
+
 .gallery .control-button {
   color: #ccc;
   color: rgba(255, 255, 255, 0.4);
@@ -88,14 +93,17 @@ a[alt="image"]:hover{
 .gallery {
   position: relative;
 }
+
 .gallery .item {
   height: 400px;
+  margin-bottom: .5em;
   padding: 20px 0 20px 0;
   overflow: hidden;
   text-align: center;
   background: url("../img/tweed.png");
   border-radius: 1.5em;
 }
+
 .gallery .controls {
   position: absolute;
   bottom: -120px;
@@ -115,6 +123,3 @@ a[alt="image"]:hover{
   text-decoration: none;
   transition: color .1s;
 }
-
-
-/* Show Grid */
