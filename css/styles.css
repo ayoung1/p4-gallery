@@ -7,6 +7,11 @@ body{
 
 /*header*/
 
+.header div p{
+  font-size: 0;
+  color: transparent;
+}
+
 .header{
   background: url("../img/tweed.png");
   margin-top: .5em;
@@ -40,34 +45,35 @@ body{
   text-decoration: none;
   color: #FFF;
   padding: 1em;
-  transition: border .25s;
+  transition: border .25s,
+        color .25s;
 }
 
 a[alt="home"]{
-  border-bottom: solid red 3px;
+  border-bottom: solid #E14938 3px;
 }
 
 a[alt="home"]:hover{
-  color: red;
-  border-bottom: solid red 7px;
+  color: #E14938;
+  border-bottom: solid #E14938 7px;
 }
 
 a[alt="resume"]{
-  border-bottom: solid green 3px;
+  border-bottom: solid #00ACED 3px;
 }
 
 a[alt="resume"]:hover{
-  color: green;
-  border-bottom: solid green 7px;
+  color: #00ACED;
+  border-bottom: solid #00ACED 7px;
 }
 
 a[alt="image"]{
-  border-bottom: solid blue 3px;
+  border-bottom: solid #e44d26 3px;
 }
 
 a[alt="image"]:hover{
-  color: blue;
-  border-bottom: solid blue 7px;
+  color: #e44d26;
+  border-bottom: solid #e44d26 7px;
 }
 /*end header*/
 
